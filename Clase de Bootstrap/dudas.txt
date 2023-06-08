@@ -1,0 +1,2 @@
+*como centrar el logo
+*como achicar las imágenes del carousel
