@@ -1,2 +1,3 @@
 *como centrar el logo
 *como achicar las imágenes del carousel
+*como actualizar el deploy si hay modificaciones en la página
