@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.padre{
+    min-height: 100vh;
+    background-color: rgb(211, 233, 231);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.caja{
+    width: 300px;
+    height: 300px;
+    background-color: brown;
+    z-index: 2;
+}
+
+.caja-2{
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+    position: absolute;
+    top: -150px;
+    right: 150px;
+    z-index: 1;
+}
+
+.caja-3{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(165, 165, 42);
+    z-index: 2;
+}
+
+.row{
+    display: flex;
+    position: relative;
+    
+}
+
+.forma-1{
+    width: 150px;
+    height: 150px;
+    background-color: chocolate;
+    position: absolute;
+    top: -300px
+}
+.forma-2{
+    width: 150px;
+    height: 150px;
+    background-color: chocolate;
+    position: absolute;
+    top: -300px;
+    right: 0;
+}
+
+.flex-1{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    border-color: rgb(12, 241, 80);
+    justify-content: center;
+    gap: 50px;
+}
+
+.hijo{
+    width: 300px;
+    height: 300px;
+    background-color: green;
+}
+@media screen and (max-width: 750px){
+    .flex-1{
+        flex-direction: column;
+    }
+}
+
+

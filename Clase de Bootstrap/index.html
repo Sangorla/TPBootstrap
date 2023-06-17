@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./Clase de Bootstrap/styles.css">
+    <title>Ejemplo con Bootstrap</title>
+</head>
+
+<body>
+    <!-- header -->
+    <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="./Images/logo.png" alt="Logo" width="100" height="100"
+                    class="text-center rounded mx-auto d-block" />
+            </a>
+        </div>
+    </nav>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Flora y Fauna</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Clima</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Especies
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Mamíferos</a></li>
+                            <li><a class="dropdown-item" href="#">Reptiles</a></li>
+                            <li>
+                                <a class="dropdown-item" href="#">Aves</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- carrusel -->
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner border">
+            <div class="carousel-item active">
+                <img src="https://th.bing.com/th/id/OIP.dg4sc9QU6kvvDvqrMqqCSwHaFj?pid=ImgDet&rs=1"
+                    class="d-block w-100 img-fluid" alt="..."/>
+                <div class="carousel-caption d-none d-md-block mx-auto">
+                    <h5>Elefantes</h5>
+                    <p >Familia de Elefantes</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://th.bing.com/th/id/OIP.GGZzumAkt2Z6X3L1C_VZAgHaE8?pid=ImgDet&rs=1"
+                    class="d-block w-100" alt="..." />
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>León en selva</h5>
+                    <p>Un león solitario</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://th.bing.com/th/id/OIP.ZNSwdvfmqAYwgBHO79jIEwHaEo?pid=ImgDet&rs=1"
+                    class="d-block w-100" alt="..." />
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Jirafas</h5>
+                    <p>Familia de jirafas</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- imagenes -->
+    <div class="card-group">
+        <div class="card">
+            <img src="https://media.metrolatam.com/2018/02/19/elefantito660x550-1200x800.jpg" class="card-img-top"
+                alt="..." />
+            <div class="card-body">
+                <h5 class="card-title">La sabana africana y los mamíferos</h5>
+                <p class="card-text">
+                    La sabana se encuentra en las latitudes medias de los continentes y se caracteriza por tener zonas escasas de agua y de vegetación. Sin embargo, puede estar habitada por una gran variedad de especies animales, como elefantes, jirafas, y tigres.
+                </p>
+                <p class="card-text">
+                    <small class="text-body-secondary"></small>
+                </p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://www.okchicas.com/wp-content/uploads/2015/07/Fotos-de-animales-beb%C3%A9s-39.jpg"
+                class="card-img-top" alt="..." />
+            <div class="card-body">
+                <h5 class="card-title">La sabana africana y las aves</h5>
+                <p class="card-text">
+                    Y si nos centramos en las aves, al hablar de África inevitablemente se habla del avestruz, de las fantásticas bandadas de flamencos que se alimentan en los lagos nitrosos del África Oriental, de los feos y carroñeros marabúes y poco más. Sin embargo, la avifauna africana consta de 2.341 especies, el 67% de las cuales son endémicas del continente.  
+                </p>
+                <p class="card-text">
+                    <small class="text-body-secondary"></small>
+                </p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./Clase de Bootstrap/Images/descarga.jpeg"
+                class="card-img-top" alt="..." />
+            <div class="card-body">
+                <h5 class="card-title">El clima y la flora en la sabana africana</h5>
+                <p class="card-text">
+                    La temperatura en la sabana africana oscila alrededor de los 23 ºC y es un ecosistema que se caracteriza por su paisaje con una vegetación típica formada por herbáceas, pastos, gramíneas y árboles.
+                </p>
+                <p class="card-text">
+                    <small class="text-body-secondary"></small>
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <div class="container">
+        <footer class="py-3 my-4">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Inicio</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Flora y Fauna</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Clima</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Contacto</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Nosotros</a></li>
+            </ul>
+            <p class="text-center text-body-secondary">© 2023 Brut Nature, Inc</p>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
