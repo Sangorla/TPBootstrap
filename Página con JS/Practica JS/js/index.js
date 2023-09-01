@@ -1,8 +1,8 @@
-let user = prompt("por favor ingrese su usuario: ");
-let pass = prompt("ingrese su password");
+//let user = prompt("por favor ingrese su usuario: ");
+//let pass = prompt("ingrese su password");
 
-console.log(user);
-console.log(pass);
+//console.log(user);
+//console.log(pass);
 
 if (user == "Pepe" && pass == "1234") {
     alert(Bienvenido);
@@ -93,3 +93,18 @@ if (cliente && dia == "viernes") {
 
 //alert() función modal para enviar mensajes al cliente dentro de la web
 //prompt() función modal para que el cliente introduzca datos en la web
+
+
+let hora = "22"  
+
+if (hora>=6 && hora <=12) {
+  console.log("Buenos días");
+}else if(hora>=13 && hora <=18){
+  console.log("Buenas tardes");
+}else if(hora >=19 && hora <=21){
+  console.log("buenas noches");
+}else if (hora>=22 && hora <= 5) {
+  console.log("Hasta mañana");
+}else{
+  console.log("no es una hora existente");
+}

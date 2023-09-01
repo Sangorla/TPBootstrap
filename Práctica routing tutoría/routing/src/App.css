@@ -1,0 +1,27 @@
+body{
+  background-color: black;
+}
+
+header{
+  display: flex;
+  background-color: rgb(61, 137, 140);
+  padding: 3vh 5vw ;
+}
+
+.submenuContainer{
+  position: relative;
+}
+
+.submenuContainer:hover .submenu{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.submenu{
+  display: none;
+  position: absolute;
+  background-color: rgb(159, 149, 131);
+  align-items: center;
+  top: 10px;
+}

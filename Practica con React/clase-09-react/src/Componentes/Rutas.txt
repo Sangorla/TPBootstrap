@@ -1,0 +1,10 @@
+
+
+Rutas con React Router Dom
+
+1.- Instalamos la librería de React Router Dom
+            npm i react-router-dom
+
+
+2.- Importamos
+import { BrowserRouter } from 'react-router-dom';             

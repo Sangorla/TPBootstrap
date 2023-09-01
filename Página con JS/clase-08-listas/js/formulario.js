@@ -105,3 +105,11 @@ localStorage.setItem("Productos", misProductos)
     }
 
 } */
+
+const usuarios = JSON.parse(localStorage.getItem('usuarios'))
+if(usuarios){
+    usuarios.push({nombre: 'pepe'})
+    localStorage.setItem('usuarios', JSON.stringify(usuarios))
+}else{
+    localStorage.setItem('usuarios', JSON.stringify([{nombre: 'pepe'}]))
+}
